@@ -14,7 +14,7 @@ app.use(express.json());
 // app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: ["https://genie-bazaar-frontend.vercel.app"],
+    origin: ["https://chatnovo-frontend.vercel.app"],
   })
 );
 connectDb();
